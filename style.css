@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=latin-ext');
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  padding: 5rem 2rem;
+}
+
+.skills {
+  display: grid;
+  gap: 0.5rem 1rem;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+.skill {
+  display: contents;
+}
+
+.skill__label {
+  text-align: right;
+}
+
+.skill__bar {
+  background-color: lightgray;
+  height: 0.6rem;
+  border-radius: 0.3rem;
+}
+
+.skill__progress {
+  background-color: #444;
+  width: 50%;
+  height: 0.6rem;
+  border-radius: 0.3rem;
+}
+
+.skill__value {
+  text-align: right;
+}
